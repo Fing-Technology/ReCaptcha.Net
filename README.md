@@ -19,7 +19,7 @@ At the top of the aspx page, insert this:
 <%@ Register TagPrefix="ReCaptcha" Namespace="ReCaptcha.Net" Assembly="ReCaptcha.Net" %>
 ```
 
-Then insert the reCAPTCHA control inside of the <form runat="server"> tag:
+Then insert the reCAPTCHA control inside of the <<form runat="server">> tag:
 
 ```
 <ReCaptcha:ReCaptchaControl id="reCaptchaControl" runat="server" SiteKey="your_site_key" ServerKey="your_server_key" />
