@@ -10,8 +10,8 @@ The reCAPTCHA ASP.NET Library provides a simple way to place a [CAPTCHA](http://
 
 After you've signed up for your API keys, below are basic instructions for installing reCAPTCHA on your site with ASP.NET:
 
-1. Add a reference on your website to ReCaptcha.Net.dll: On the Visual Studio Website menu, choose Add Reference and then click the .NET tab in the dialog box. Select the ReCaptcha.Net.dll component from the list of .NET components and then click OK. If you don't see the component, click the Browse tab and look for the assembly file on your hard drive.
-2. Insert the reCAPTCHA control into the form you wish to protect by adding the following code snippets:
+* Add a reference on your website to ReCaptcha.Net.dll: On the Visual Studio Website menu, choose Add Reference and then click the .NET tab in the dialog box. Select the ReCaptcha.Net.dll component from the list of .NET components and then click OK. If you don't see the component, click the Browse tab and look for the assembly file on your hard drive.
+* Insert the reCAPTCHA control into the form you wish to protect by adding the following code snippets:
 
 At the top of the aspx page, insert this:
 
@@ -26,7 +26,8 @@ Then insert the reCAPTCHA control inside of the \<form runat="server"\> tag:
 ```
 
 You will need to substitute your site and server key into SiteKey and ServerKey respectively.
-3. Make sure you use ASP.NET validation to validate your form (you should check Page.IsValid on submission).
+
+* Make sure you use ASP.NET validation to validate your form (you should check Page.IsValid on submission).
 
 The following is a "Hello World" with reCAPTCHA.
 
