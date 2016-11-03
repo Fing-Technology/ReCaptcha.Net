@@ -1,0 +1,11 @@
+language: csharp
+solution: ReCaptcha.Net.sln
+install:
+  - nuget restore ReCaptcha.Net.sln
+  #- nuget install NUnit.Runners -Version 3.5.0 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release ReCaptcha.Net.sln
+  #- mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./src/ReCaptcha.Tests/bin/Release/ReCaptcha.Tests.dll
+notifications:
+  email:
+    - rob.janssen@upcmail.nl

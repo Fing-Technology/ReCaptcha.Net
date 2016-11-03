@@ -12,7 +12,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:Label ID="lblResult" runat="server" />
-        <ReCaptcha:ReCaptchaControl id="reCaptchaControl" runat="server"/>
+        <ReCaptcha:ReCaptchaControl id="reCaptchaControl" runat="server" Theme="Light" />
         <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
     </div>
     </form>
