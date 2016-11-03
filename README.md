@@ -1,6 +1,6 @@
 # ReCaptcha.Net ASP.NET Plugin
 
-s-ci.org/janssenr/ReCaptcha.Net.svg?branch=master)](https://travis-ci.org/janssenr/ReCaptcha.Net)
+[![Build Status](https://travis-ci.org/janssenr/ReCaptcha.Net.svg?branch=master)](https://travis-ci.org/janssenr/ReCaptcha.Net)
 
 ## Description
 
